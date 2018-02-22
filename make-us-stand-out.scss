@@ -1,0 +1,41 @@
+.make-us-stand-out {
+	background-color: #e7eff1;
+	font-family: $font-roboto;
+	font-size: 15px;
+	color: #8b9394;
+	padding: 180px;
+	.services {
+		display: flex;
+  		justify-content: space-between;
+  		align-items: flex-start;
+  		padding-top: 30px;
+  		padding-right: 10px;
+  		div h6 {
+  			color: #24d635;
+  			padding-top: 20px;
+  			font-size: 20px;
+  		}
+  		div h5 {
+  			text-align: left;
+  			font-weight: bold;
+  			color: black;
+  			font-size: 20px;
+  			padding-bottom: 30px;
+  		}
+		:first-child {
+			margin-right: 50px;
+		}
+		:nth-child(2) {
+			margin-right: 50px;
+		}
+	}
+	
+	
+	h6 {
+		font-size: 16px;
+	}
+	h3 {
+		font-size: 26px;
+		color: black;
+	}
+}

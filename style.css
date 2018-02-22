@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+header {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.headerblock {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-size: 14px; }
+
+a.menu {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px; }
+  a.menu:hover {
+    color: #ffac55; }
+  a.menu.active {
+    color: #ffac55; }
+
+div .menulist > div {
+  display: inline-block; }
+
+.logoimage {
+  width: 300px;
+  height: auto;
+  padding-right: 60px; }
+
+.banner-section {
+  position: relative; }
+  .banner-section img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.industry-section {
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+  width: 375px;
+  height: 380px; }
+  .industry-section .industry-first-line {
+    display: flex;
+    align-items: center;
+    background-color: #ffac55;
+    width: 100%;
+    height: 16%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 30px; }
+  .industry-section .new-doors, .industry-section .cables, .industry-section .openers, .industry-section .springs {
+    background-color: #03b6e7;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 25%;
+    border: 0.5px solid #00a6d3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white; }
+    .industry-section .new-doors:hover, .industry-section .new-doors.active, .industry-section .cables:hover, .industry-section .cables.active, .industry-section .openers:hover, .industry-section .openers.active, .industry-section .springs:hover, .industry-section .springs.active {
+      background-color: #00a6d3; }
+  .industry-section .call-number {
+    position: relative;
+    background-color: #03b6e7;
+    height: 24%;
+    width: 100%;
+    display: inline-block;
+    float: left; }
+
+.new-doors img, .cables img, .openers img, .springs img {
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+  float: left;
+  left: 20px;
+  top: 20px; }
+
+.new-doors-text {
+  display: inline-block;
+  float: left;
+  clear: both;
+  padding-top: 20px;
+  padding-left: 24px; }
+
+.chevron-item {
+  display: inline-block;
+  float: right;
+  padding: 15px; }
+
+.call-number img {
+  position: absolute;
+  width: auto;
+  height: 75px;
+  display: inline-block;
+  float: left;
+  left: 20px;
+  top: 20px; }
+.call-number .free-estimate {
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  margin-right: 10px;
+  color: white; }
+.call-number .phone-number-block {
+  position: relative;
+  display: inline-block;
+  float: right;
+  clear: both;
+  height: 40px;
+  width: 240px;
+  background-color: #16d428;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding-bottom: 40px; }
+  .call-number .phone-number-block img {
+    width: auto;
+    height: 30px;
+    display: inline-block;
+    float: left;
+    margin-top: -13px; }
+  .call-number .phone-number-block .number {
+    color: white;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 3px;
+    margin-right: 10px; }
+
+.what-we-are {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .what-we-are .text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #8b9394;
+    text-align: right;
+    padding-right: 50px; }
+    .what-we-are .text div {
+      display: inline-block;
+      float: right;
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      text-align: center;
+      color: white;
+      background-color: #16d428;
+      border-radius: 15px;
+      height: 40px;
+      width: 100px;
+      padding-top: 12px; }
+  .what-we-are h3 strong {
+    color: black; }
+  .what-we-are .handshake img {
+    position: relative;
+    height: 275px;
+    width: auto; }
+  .what-we-are .handshake .badge {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+    background-color: #03b6e7;
+    border: 5px solid white;
+    box-shadow: 0px 1px 7px 0px #888888;
+    margin-top: -100px;
+    margin-left: 125px; }
+    .what-we-are .handshake .badge div {
+      height: 250px;
+      width: 200px;
+      border: 1px solid white;
+      margin-top: 18px;
+      font-family: "Montserrat", sans-serif; }
+      .what-we-are .handshake .badge div img {
+        height: 80px;
+        width: auto;
+        border: 0; }
+      .what-we-are .handshake .badge div h3 {
+        margin-top: 20px;
+        position: center;
+        color: white;
+        font-size: 80px; }
+      .what-we-are .handshake .badge div h6 {
+        position: center;
+        color: white;
+        font-size: 12px; }
+
+.make-us-stand-out {
+  background-color: #e7eff1;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #8b9394;
+  padding: 180px; }
+  .make-us-stand-out .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-right: 10px; }
+    .make-us-stand-out .services div h6 {
+      color: #24d635;
+      padding-top: 20px;
+      font-size: 20px; }
+    .make-us-stand-out .services div h5 {
+      text-align: left;
+      font-weight: bold;
+      color: black;
+      font-size: 20px;
+      padding-bottom: 30px; }
+    .make-us-stand-out .services :first-child {
+      margin-right: 50px; }
+    .make-us-stand-out .services :nth-child(2) {
+      margin-right: 50px; }
+  .make-us-stand-out h6 {
+    font-size: 16px; }
+  .make-us-stand-out h3 {
+    font-size: 26px;
+    color: black; }
+
+.testimonials {
+  background-color: #03b6e7; }
+  .testimonials :first-child {
+    text-align: left;
+    padding-top: 60px; }
+    .testimonials :first-child h6 {
+      text-align: left;
+      color: #85e1fa;
+      font-size: 20px; }
+    .testimonials :first-child h3 {
+      color: white;
+      font-size: 40px;
+      font-weight: bold; }
+  .testimonials :nth-child(2) {
+    display: flex;
+    align-items: flex-start;
+    font-family: "Roboto", sans-serif;
+    color: #b1ebfa;
+    padding-top: 40px; }
+    .testimonials :nth-child(2) img {
+      margin-top: -50px;
+      margin-right: 30px; }
+  .testimonials .button {
+    display: inline-block;
+    float: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background-color: #16d428;
+    border-radius: 25px;
+    height: 46px;
+    width: 160px;
+    padding-top: 14px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 450px; }
+  .testimonials .line {
+    color: white;
+    margin-left: 150px;
+    margin-top: -50px; }
+  .testimonials .text {
+    margin-left: -28px; }
+
+/*# sourceMappingURL=style.css.map */
